@@ -9,6 +9,7 @@ command = "npm start"
 [functions]
 node_bundler = "esbuild"
 external_node_modules = ["@11ty/eleventy", "@11ty/dependency-tree", "pug-filters"]
+included_files = ["./netlify/functions/possum/**/*"]
 
 [[redirects]]
 from = "/possum/"
